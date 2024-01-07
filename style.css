@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.information {
+.info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.information img {
+.info img {
   width: 100%;
 }
 
-.information .more_inf {
+.info .more_info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .information { 
+  .info { 
     text-align: center;
 }
 }
@@ -38,7 +38,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
@@ -140,13 +140,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete-btn img {
+button.del-btn img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete-btn img:hover {
+button.del-btn img:hover {
   transform: rotateZ(0);
 }
 
